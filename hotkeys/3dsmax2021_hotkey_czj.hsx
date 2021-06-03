@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MaxHotkeyTransformations Locked="false">
+    <Unassign_Hotkey Shortcut="Ctrl+S" Description="Save File" Id="0-40006"/>
+    <Assign_Hotkey Shortcut="Ctrl+S" Description="Save File As" Id="0-40007"/>
+    <Unassign_Hotkey Shortcut="Ctrl+Shift+S" Description="Save File As" Id="0-40007"/>
+    <Assign_Hotkey Shortcut="Ctrl+Shift+S" Description="Save File" Id="0-40006"/>
+    <Unassign_Hotkey Shortcut="Q" Description="Smart Select" Id="647394-SmartSelect`Selection"/>
+    <Assign_Hotkey Shortcut="Q" Description="Select Object" Id="0-50027"/>
+    <Unassign_Hotkey Shortcut="K" Description="Set Keys" Id="0-40800"/>
+    <Assign_Hotkey Shortcut="K" Description="Right View" Id="0-40062"/>
+    <Assign_Hotkey Shortcut="B" Description="Back View" Id="0-40064"/>
+    <Assign_Hotkey Shortcut="Ctrl+G" Description="Group" Id="0-40140"/>
+    <Unassign_Hotkey Shortcut="Shift+G" Description="Hide Geometry Toggle" Id="0-40190"/>
+    <Assign_Hotkey Shortcut="Shift+G" Description="Group Open" Id="0-40142"/>
+    <Unassign_Hotkey Shortcut="Alt+G" Description="Geometry Selection Visibility Toggle" Id="647394-ProjectioModToggleNodeVisibility`Projection Modifier"/>
+    <Assign_Hotkey Shortcut="Alt+G" Description="Group Close" Id="0-40143"/>
+    <Assign_Hotkey Shortcut="D" Description="Affect Pivot Only Mode Toggle" Id="647394-PivotMode_Toggle`Tools"/>
+    <Unassign_Hotkey Shortcut="Ins" Description="Affect Pivot Only Mode Toggle" Id="647394-PivotMode_Toggle`Tools"/>
+    <Unassign_Hotkey Shortcut="V" Description="Viewports" Id="1261319018-Viewports"/>
+    <Assign_Hotkey Shortcut="V" Description="Center Pivot" Id="647394-CenterPivot`PolyTools"/>
+    <Unassign_Hotkey Shortcut="Space" Description="Lock" Id="1261319018-Lock"/>
+    <Assign_Hotkey Shortcut="Space" Description="Selection Lock Toggle" Id="0-59231"/>
+    <Unassign_Hotkey Shortcut="Ctrl+Shift+N" Description="Selection Lock Toggle" Id="0-59231"/>
+    <Assign_Hotkey Shortcut="Shift+X" Description="Launch Global Search" Id="39081-32653"/>
+    <Unassign_Hotkey Shortcut="X" Description="Launch Global Search" Id="39081-32653"/>
+    <Assign_Hotkey Shortcut="X" Description="Show Transform Gizmo" Id="0-40105"/>
+</MaxHotkeyTransformations>
