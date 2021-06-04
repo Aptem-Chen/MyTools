@@ -87,14 +87,17 @@ class CowTime:
 
 # 测试
 def main():
-    time1 = (10, 8, 12)
-    time2 = (3, 45, 9)
-    time3 = (21, 16, 31)
+    # Test data
+    times = [
+        (10, 8, 12),
+        (3, 45, 9),
+        (21, 16, 31)
+    ]
+    times_count = len(times)
 
-    times = [time1, time2, time3]
-
+    # 打印时间池内每一个时间对象的总时、总分、总秒
     time_calc = CowTime()
-    for i in range(len(times)):
+    for i in range(times_count):
         time_calc.add_time2pool(times[i])
         print("%d:%d:%d\r\nH: %f\r\nM: %f \r\nS: %d\r\n...................." % (
                 times[i][0],
@@ -107,11 +110,15 @@ def main():
         )
         time_calc.clear()
 
-    times_calc = CowTime(time1, time2, time3)
+    # 打印时间池所有时间对象的平均时、平均分、平均秒
+    times_calc = CowTime()
+    for t in times:
+        times_calc.add_time2pool(t)
+
     print("平均时间：\r\nH: %f\r\nM: %f\r\nS: %f" % (
-            times_calc.calc_hours() / 3,
-            times_calc.calc_minute() / 3,
-            times_calc.calc_seconds() / 3
+            times_calc.calc_hours() / times_count,
+            times_calc.calc_minute() / times_count,
+            times_calc.calc_seconds() / times_count
         )
     )
 
