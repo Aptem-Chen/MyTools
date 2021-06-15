@@ -89,7 +89,7 @@ class CowTime:
 def main():
     # Test data
     times = [
-        (4, 46, 21)
+        (1, 46, 21)
     ]
     times_count = len(times)
 
